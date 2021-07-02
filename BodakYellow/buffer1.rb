@@ -9,10 +9,7 @@ print "BPM:", current_bpm
 melody_synths = [:pluck, ]
 main_melody = [:B3, :C4, :E4, :B3, :C4, :E4, :B3, :C4, :B3, :C4, :E4, :B3, :C4, :E4, :B3, :E4]
 
-bodak_drumkits = "D:/Works/Sonicpy_popSongs/BodakYellow/drum_kit/"
-bodak_808 = bodak_drumkits, "808"
-bodak_808_2 = bodak_drumkits, "808_2"
-basses = [bodak_808, bodak_808_2]
+basses = [:bd_808, :bd_boom]
 bass_melody = [
   [0, 0.5],
   [1, 0.5],
@@ -23,7 +20,7 @@ bass_melody = [
   [0, 0.5],
   [0, 0.25],
   [0, 0.5],
-  [0, 0.75]]
+[0, 0.75]]
 
 snare_time = 0.5
 bass_time = 0.5
